@@ -267,6 +267,19 @@ h2.h-section {
 }
 .brand__mark svg { width: 17px; height: 17px; }
 .header .btn { padding: 0.62rem 1.15rem; font-size: 0.98rem; }
+.header .btn--primary {
+  border-radius: var(--r-pill);
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+  box-shadow: var(--shadow-xs);
+}
+.header .btn--primary:hover {
+  background: #fff;
+  color: var(--ink);
+  border-color: var(--ink);
+  box-shadow: var(--shadow-sm);
+}
 
 /* ---------- Hero ---------- */
 .hero {
@@ -434,6 +447,19 @@ h2.h-section {
   gap: 0.95rem;
   margin-top: 2.25rem;
 }
+.hero__actions .btn--primary {
+  border-radius: var(--r-pill);
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+  box-shadow: var(--shadow-sm);
+}
+.hero__actions .btn--primary:hover {
+  background: #fff;
+  color: var(--ink);
+  border-color: var(--ink);
+  box-shadow: var(--shadow-md);
+}
 .hero__micro {
   display: inline-flex;
   align-items: center;
@@ -504,13 +530,18 @@ h2.h-section {
 .trust__item {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.75rem;
-  padding: 1rem 1.1rem;
+  min-height: 58px;
+  padding: 0.85rem 1.25rem;
   background: #fff;
   border: 1px solid var(--line);
-  border-radius: var(--r);
+  border-radius: var(--r-pill);
   font-weight: 500;
   font-size: 0.98rem;
+  line-height: 1.25;
+  text-align: center;
+  box-shadow: var(--shadow-xs);
 }
 .trust__item svg { width: 22px; height: 22px; color: var(--accent); flex: none; }
 
