@@ -168,12 +168,16 @@ h2.h-section {
 .btn svg { width: 18px; height: 18px; }
 
 .btn--primary {
-  background: var(--accent);
-  color: var(--accent-ink);
-  box-shadow: var(--shadow-sm), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  border-radius: var(--r-pill);
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+  box-shadow: var(--shadow-sm);
 }
 .btn--primary:hover {
-  background: var(--accent-strong);
+  background: #fff;
+  color: var(--ink);
+  border-color: var(--ink);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
@@ -190,10 +194,19 @@ h2.h-section {
 .btn--block { width: 100%; }
 
 .btn--white {
+  border-radius: var(--r-pill);
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+  box-shadow: var(--shadow-sm);
+}
+.btn--white:hover {
   background: #fff;
   color: var(--ink);
+  border-color: var(--ink);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
-.btn--white:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
 
 /* ---------- Topbar ---------- */
 .topbar {
@@ -267,19 +280,6 @@ h2.h-section {
 }
 .brand__mark svg { width: 17px; height: 17px; }
 .header .btn { padding: 0.62rem 1.15rem; font-size: 0.98rem; }
-.header .btn--primary {
-  border-radius: var(--r-pill);
-  background: var(--ink);
-  color: #fff;
-  border-color: var(--ink);
-  box-shadow: var(--shadow-xs);
-}
-.header .btn--primary:hover {
-  background: #fff;
-  color: var(--ink);
-  border-color: var(--ink);
-  box-shadow: var(--shadow-sm);
-}
 
 /* ---------- Hero ---------- */
 .hero {
@@ -446,19 +446,6 @@ h2.h-section {
   align-items: center;
   gap: 0.95rem;
   margin-top: 2.25rem;
-}
-.hero__actions .btn--primary {
-  border-radius: var(--r-pill);
-  background: var(--ink);
-  color: #fff;
-  border-color: var(--ink);
-  box-shadow: var(--shadow-sm);
-}
-.hero__actions .btn--primary:hover {
-  background: #fff;
-  color: var(--ink);
-  border-color: var(--ink);
-  box-shadow: var(--shadow-md);
 }
 .hero__micro {
   display: inline-flex;
