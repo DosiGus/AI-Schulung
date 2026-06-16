@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ffffff" />
+  <script>document.documentElement.classList.add("js");</script>
+
+  <title>Kostenloses AI Builder Webinar – Baue dein erstes AI-Projekt</title>
+  <meta name="description" content="Kostenloses Live-Webinar für Studenten und Berufseinsteiger: Lerne, wie du mit KI AI-Agents, Automationen und eigene digitale Projekte baust." />
+  <link rel="canonical" href="https://example.com/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kostenloses AI Builder Webinar – Baue dein erstes AI-Projekt" />
+  <meta property="og:description" content="Live-Webinar für Studenten & Berufseinsteiger: KI für AI-Agents, Automationen und eigene Projekte – ohne Informatikstudium." />
+  <meta property="og:image" content="assets/og-image.svg" />
+  <meta property="og:locale" content="de_DE" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+  <!-- =================== TOPBAR =================== -->
+  <div class="topbar">
+    <span class="topbar__dot" aria-hidden="true"></span>
+    Begrenzte Plätze pro Session – Termine werden zuerst an die Warteliste vergeben.
+  </div>
+
+  <!-- =================== HEADER =================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="AI Builder – Startseite">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5 13.9 11.4 12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M18 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>
+        </span>
+        <span>AI&nbsp;Builder</span>
+      </a>
+      <a class="btn btn--primary" href="#anmeldung" data-cta="header">Kostenlos anmelden</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- =================== HERO =================== -->
+    <section class="hero">
+      <div class="hero__net" aria-hidden="true">
+        <svg class="net" viewBox="0 0 1200 560" preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- static connection wires between the nodes -->
+          <g class="net__wires">
+            <path class="wire" d="M168,250 Q360,112 600,84"/>
+            <path class="wire" d="M600,84 Q842,100 1032,236"/>
+            <path class="wire wire--soft" d="M1032,236 Q600,432 168,250"/>
+          </g>
+          <!-- glowing data packets gliding from one node to the next -->
+          <g class="net__packets">
+            <path class="packet" pathLength="100" d="M168,250 Q360,112 600,84" style="animation-duration:3.2s;animation-delay:0s"/>
+            <path class="packet" pathLength="100" d="M600,84 Q842,100 1032,236" style="animation-duration:3s;animation-delay:1s"/>
+            <path class="packet" pathLength="100" d="M1032,236 Q842,100 600,84" style="animation-duration:3.6s;animation-delay:2.3s"/>
+          </g>
+          <!-- endpoint nodes: database, chip, server -->
+          <g class="netnode" transform="translate(168,250)" style="--d:0s">
+            <circle class="halo" r="29"/>
+            <g class="glyph">
+              <ellipse cx="0" cy="-9" rx="11" ry="4.4"/>
+              <path d="M-11,-9 V9 a11,4.4 0 0 0 22,0 V-9"/>
+              <path d="M-11,0 a11,4.4 0 0 0 22,0"/>
+            </g>
+          </g>
+          <g class="netnode" transform="translate(600,84)" style="--d:1.6s">
+            <circle class="halo" r="29"/>
+            <g class="glyph">
+              <rect x="-9" y="-9" width="18" height="18" rx="3.5"/>
+              <rect x="-3.5" y="-3.5" width="7" height="7" rx="1.5"/>
+              <path d="M-5,-9 V-13 M0,-9 V-13 M5,-9 V-13 M-5,9 V13 M0,9 V13 M5,9 V13 M-9,-5 H-13 M-9,0 H-13 M-9,5 H-13 M9,-5 H13 M9,0 H13 M9,5 H13"/>
+            </g>
+          </g>
+          <g class="netnode" transform="translate(1032,236)" style="--d:2.8s">
+            <circle class="halo" r="29"/>
+            <g class="glyph">
+              <rect x="-12" y="-12" width="24" height="10" rx="2.2"/>
+              <rect x="-12" y="2" width="24" height="10" rx="2.2"/>
+              <path d="M-2,-7 H7 M-2,7 H7"/>
+              <circle class="led" cx="-7" cy="-7" r="1.4"/>
+              <circle class="led" cx="-7" cy="7" r="1.4"/>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="container hero__inner">
+        <h1 class="hero__title">Starte dein erstes Coding-Projekt auch ohne Vorwissen.</h1>
+
+        <p class="hero__sub">Kostenloses Live-Webinar für Studenten, Berufseinsteiger und junge Professionals, die lernen wollen, wie man mit KI echte Workflows, Agents und digitale Projekte entwickelt.</p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg" href="#anmeldung" data-cta="hero">
+            Kostenlosen Platz anfragen
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <p class="hero__micro">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            Kostenlos · live · praxisnah · keine Coding-Vorkenntnisse nötig
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================== TRUST BAR =================== -->
+    <section class="section section--tight" aria-label="Vorteile">
+      <div class="container">
+        <div class="trust reveal">
+          <div class="trust__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1h6c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2zM9 21h6"/></svg>
+            Für Anfänger geeignet
+          </div>
+          <div class="trust__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 1 5 5L7 24l-4 1 1-4z"/><path d="M3 13l3-9 4 4"/></svg>
+            Praxis statt Theorie
+          </div>
+          <div class="trust__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5"/></svg>
+            Live-Demo im Webinar
+          </div>
+          <div class="trust__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7l9-4 9 4-9 4z"/><path d="M3 7v10l9 4 9-4V7"/></svg>
+            Fokus auf echte AI-Projekte
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== PROBLEM =================== -->
+    <section class="section section--soft">
+      <div class="container compare__grid">
+        <div class="section-head reveal">
+          <span class="eyebrow">Der Status quo</span>
+          <h2 class="h-section">Die meisten nutzen KI noch viel zu oberflächlich.</h2>
+          <p class="lead">ChatGPT für Texte zu nutzen ist hilfreich. Der echte Vorteil entsteht aber, wenn du KI für Workflows, Agents, Automationen und eigene Projekte einsetzt.</p>
+        </div>
+        <div class="compare__cards reveal">
+          <div class="compare__card">
+            <div class="compare__col"><small>Heute</small><strong>Prompts schreiben</strong></div>
+            <span class="compare__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            <div class="compare__col compare__col--next"><small>Nächster Schritt</small><strong>Workflows bauen</strong></div>
+          </div>
+          <div class="compare__card">
+            <div class="compare__col"><small>Heute</small><strong>Texte generieren</strong></div>
+            <span class="compare__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            <div class="compare__col compare__col--next"><small>Nächster Schritt</small><strong>Agents nutzen</strong></div>
+          </div>
+          <div class="compare__card">
+            <div class="compare__col"><small>Heute</small><strong>KI ausprobieren</strong></div>
+            <span class="compare__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            <div class="compare__col compare__col--next"><small>Nächster Schritt</small><strong>Eigene Projekte umsetzen</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== OUTCOME =================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="eyebrow">Dein Ergebnis</span>
+          <h2 class="h-section">Nach dem Webinar weißt du, wie du von einer Idee zu einem AI-Projekt kommst.</h2>
+        </div>
+        <div class="grid grid--3 reveal" style="margin-top: 2.5rem;">
+          <div class="outcome__card"><span class="outcome__check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>Du verstehst, was AI-Agents wirklich sind</div>
+          <div class="outcome__card"><span class="outcome__check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>Du siehst, wie KI beim Programmieren helfen kann</div>
+          <div class="outcome__card"><span class="outcome__check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>Du lernst, welche Tools du für den Einstieg brauchst</div>
+          <div class="outcome__card"><span class="outcome__check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>Du bekommst konkrete Projektideen</div>
+          <div class="outcome__card"><span class="outcome__check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>Du erkennst, wie du KI für Karriere, Studium oder Projekte nutzt</div>
+          <div class="outcome__card"><span class="outcome__check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>Du siehst live, wie ein einfacher AI-Workflow aufgebaut wird</div>
+        </div>
+        <div style="text-align:center; margin-top: 2.6rem;" class="reveal">
+          <a class="btn btn--primary btn--lg" href="#anmeldung" data-cta="after-outcome">Kostenlosen Platz anfragen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== WEBINAR CONTENT =================== -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="eyebrow">Der Ablauf</span>
+          <h2 class="h-section">Was dich in der kostenlosen Schulung erwartet</h2>
+        </div>
+        <div class="grid grid--3 reveal" style="margin-top: 2.5rem;">
+          <div class="module">
+            <div class="module__num">01</div>
+            <div class="module__step">Verstehen</div>
+            <div class="module__line"></div>
+            <h3>Von Prompts zu AI-Agents</h3>
+            <p>Du lernst, was ein AI-Agent ist, wie er sich von normalen ChatGPT-Anfragen unterscheidet und warum Agents für zukünftige Arbeit relevant werden.</p>
+          </div>
+          <div class="module">
+            <div class="module__num">02</div>
+            <div class="module__step">Anwenden</div>
+            <div class="module__line"></div>
+            <h3>Coding &amp; Automationen mit KI</h3>
+            <p>Du siehst, wie moderne KI-Tools beim Bauen kleiner Apps, Workflows und Automationen helfen können.</p>
+          </div>
+          <div class="module">
+            <div class="module__num">03</div>
+            <div class="module__step">Umsetzen</div>
+            <div class="module__line"></div>
+            <h3>Dein erstes Projekt denken</h3>
+            <p>Du bekommst Beispiele, wie du ein eigenes AI-Projekt für Studium, Job, Bewerbung oder Business aufbauen kannst.</p>
+          </div>
+        </div>
+        <div style="text-align:center; margin-top: 2.6rem;" class="reveal">
+          <a class="btn btn--primary btn--lg" href="#anmeldung" data-cta="after-content">Webinar-Platz sichern</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== LIVE DEMO =================== -->
+    <section class="section">
+      <div class="container demo__grid">
+        <div class="section-head reveal">
+          <span class="eyebrow">Live-Demo</span>
+          <h2 class="h-section">Keine Theorie-Show. Du siehst, wie ein echter AI-Workflow entsteht.</h2>
+          <p class="lead">Im Webinar bauen wir live einen einfachen Mini-Agent – zum Beispiel einen Research-Agent, einen Website-Analyse-Agent oder einen Bewerbungs-Workflow. Du folgst Schritt für Schritt und verstehst, wie aus einer Eingabe ein nutzbares Ergebnis wird.</p>
+        </div>
+        <div class="demo__panel reveal" aria-hidden="true">
+          <div class="demo__head"><i></i><i></i><i></i><span>Website-Analyse-Agent</span></div>
+          <div class="demo__body">
+            <div class="demo__label">Input</div>
+            <div class="demo__input">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity=".0"/><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              „Analysiere diese Website und gib Verbesserungsvorschläge.“
+            </div>
+            <div class="demo__steps">
+              <div class="demo__step"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>Website scannen</div>
+              <div class="demo__step"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>Struktur analysieren</div>
+              <div class="demo__step"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>Verbesserungspotenziale erkennen</div>
+              <div class="demo__step"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>Report ausgeben</div>
+            </div>
+            <div class="demo__label">Output</div>
+            <div class="demo__output">
+              <strong>Mini-Report &amp; To-do-Liste</strong>
+              <ul>
+                <li>Headline klarer auf den Nutzen ausrichten</li>
+                <li>Call-to-Action höher platzieren</li>
+                <li>Ladezeit auf Mobile optimieren</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== ZIELGRUPPEN =================== -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="eyebrow">Für wen</span>
+          <h2 class="h-section">Für Menschen, die KI praktisch nutzen wollen – nicht nur darüber reden.</h2>
+        </div>
+        <div class="grid grid--4 reveal" style="margin-top: 2.5rem;">
+          <div class="card">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 2.7 2.5 6 2.5s6-1.5 6-2.5v-5"/></svg></div>
+            <h3>Studenten</h3>
+            <p>Du willst dich vor dem Berufseinstieg mit modernen AI-Skills abheben.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg></div>
+            <h3>Berufseinsteiger</h3>
+            <p>Du willst produktiver arbeiten und KI sinnvoll in deinem Job nutzen.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 3 5-7"/></svg></div>
+            <h3>Business &amp; Marketing</h3>
+            <p>Du willst Automationen, Content-Workflows oder kleine Tools bauen, ohne klassischer Entwickler zu sein.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1h6c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg></div>
+            <h3>Eigene Ideen</h3>
+            <p>Du hast eine Projektidee, weißt aber noch nicht, wie du sie technisch umsetzen kannst.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== FORM =================== -->
+    <section class="section" id="anmeldung">
+      <div class="container formwrap">
+        <div class="formwrap__aside reveal">
+          <span class="eyebrow">Anmeldung</span>
+          <h2 class="h-section">Setz dich auf die Warteliste für die kostenlose Live-Schulung.</h2>
+          <p class="lead">Sobald der nächste Webinar-Termin steht, erhältst du deine Einladung per E-Mail. Optional informieren wir dich zusätzlich per WhatsApp, damit du den Termin nicht verpasst.</p>
+          <ul class="checklist">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Komplett kostenlos – keine versteckten Kosten</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Keine Coding-Vorkenntnisse nötig</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Begrenzte Gruppengröße für echte Fragen</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Kein Spam – nur Infos zum Webinar</li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="signup-form" novalidate>
+          <div class="field">
+            <label for="vorname">Vorname</label>
+            <input type="text" id="vorname" name="vorname" autocomplete="given-name" placeholder="Dein Vorname" required />
+            <span class="error-msg">Bitte gib deinen Vornamen ein.</span>
+          </div>
+
+          <div class="field">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="name@beispiel.de" required />
+            <span class="error-msg">Bitte gib eine gültige E-Mail-Adresse ein.</span>
+          </div>
+
+          <div class="field">
+            <label for="status">Aktueller Status</label>
+            <select id="status" name="status" required>
+              <option value="" disabled selected>Bitte auswählen</option>
+              <option value="Student">Student</option>
+              <option value="Berufseinsteiger">Berufseinsteiger</option>
+              <option value="Angestellt">Angestellt</option>
+              <option value="Selbstständig">Selbstständig</option>
+              <option value="Sonstiges">Sonstiges</option>
+            </select>
+            <span class="error-msg">Bitte wähle deinen aktuellen Status.</span>
+          </div>
+
+          <div class="field-divider"></div>
+          <div class="optional-flag"><span class="dot"></span>Optional</div>
+
+          <div class="field">
+            <label for="interesse">Interesse <span class="opt">(optional)</span></label>
+            <select id="interesse" name="interesse">
+              <option value="" disabled selected>Was interessiert dich am meisten?</option>
+              <option value="AI-Agents">AI-Agents</option>
+              <option value="Coding mit KI">Coding mit KI</option>
+              <option value="Automationen">Automationen</option>
+              <option value="Eigene App / eigenes Tool">Eigene App / eigenes Tool</option>
+              <option value="Karrierevorteil">Karrierevorteil</option>
+              <option value="Business-Idee">Business-Idee</option>
+              <option value="Noch unsicher">Noch unsicher</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="whatsapp">WhatsApp-Nummer <span class="opt">(optional)</span></label>
+            <input type="tel" id="whatsapp" name="whatsapp" autocomplete="tel" placeholder="+49 …" />
+            <span class="hint">Nur für wichtige Infos zum Webinar-Termin und Reminder. Kein Spam.</span>
+          </div>
+
+          <div class="field">
+            <label class="checkbox">
+              <input type="checkbox" id="wa-optin" name="wa_optin" value="ja" />
+              <span>Ja, ich möchte per WhatsApp informiert werden, sobald ein Webinar-Platz frei ist.</span>
+            </label>
+          </div>
+
+          <div class="field-divider"></div>
+
+          <div class="field">
+            <label class="checkbox">
+              <input type="checkbox" id="datenschutz" name="datenschutz" required />
+              <span>Ich akzeptiere die <a href="datenschutz.html" target="_blank" rel="noopener">Datenschutzerklärung</a> und stimme zu, dass meine Angaben zur Webinar-Anmeldung verarbeitet werden.</span>
+            </label>
+            <span class="error-msg">Bitte stimme der Datenschutzerklärung zu.</span>
+          </div>
+
+          <input type="hidden" id="source" name="source" value="" />
+
+          <button type="submit" class="btn btn--primary btn--lg btn--block" data-cta="form-submit">Kostenlosen Platz anfragen</button>
+          <p class="form__foot">Kostenlos &amp; unverbindlich · jederzeit abbestellbar</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- =================== WHATSAPP REMINDER =================== -->
+    <section class="section section--tight section--soft">
+      <div class="container">
+        <div class="wa reveal">
+          <div class="wa__badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.2-5.5A8.4 8.4 0 1 1 21 11.5z"/><path d="M8.5 9.5c0 3.3 2.7 6 6 6 .5 0 1-.5 1-1 0-.3-.2-.6-.5-.8l-1.4-.7c-.3-.1-.6 0-.8.2l-.4.5c-1-.5-1.8-1.3-2.3-2.3l.5-.4c.2-.2.3-.5.2-.8l-.7-1.4c-.2-.3-.5-.5-.8-.5-.5 0-1 .5-1 1z"/></svg>
+          </div>
+          <div>
+            <h2>Du willst den Termin nicht verpassen? Aktiviere WhatsApp-Updates.</h2>
+            <p>E-Mails gehen schnell unter. Wenn du möchtest, schicken wir dir die wichtigsten Infos zum Webinar zusätzlich per WhatsApp: Termin, Link und kurze Reminder.</p>
+            <ul class="wa__points">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Nur wichtige Webinar-Infos</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Keine täglichen Nachrichten</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Jederzeit abbestellbar</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== FAQ =================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 class="h-section">Häufige Fragen</h2>
+        </div>
+        <div class="faq reveal" style="margin-top: 2.5rem;">
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Ist das Webinar wirklich kostenlos?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><div class="faq__a-inner">Ja. Die Live-Schulung ist kostenlos. Ziel ist, dir einen praktischen Einstieg in AI-Agents, KI-Workflows und Coding mit KI zu geben.</div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Brauche ich Coding-Erfahrung?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><div class="faq__a-inner">Nein. Du brauchst keine Coding-Vorkenntnisse. Das Webinar ist für Menschen gedacht, die KI praktisch nutzen wollen, auch wenn sie keine Entwickler sind.</div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Für wen ist das Webinar geeignet?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><div class="faq__a-inner">Für Studenten, Berufseinsteiger und junge Professionals, die KI für Studium, Karriere, Job oder eigene Projekte nutzen wollen.</div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Was lerne ich konkret?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><div class="faq__a-inner">Du lernst, was AI-Agents sind, wie KI beim Programmieren helfen kann und welche Arten von Projekten du mit modernen KI-Tools bauen kannst.</div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Wann findet das Webinar statt?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><div class="faq__a-inner">Die nächsten Termine werden an die Warteliste vergeben. Sobald ein Termin frei ist, erhältst du eine Einladung per E-Mail und optional per WhatsApp.</div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Warum gibt es eine Warteliste?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><div class="faq__a-inner">Die Live-Sessions sind bewusst begrenzt, damit Fragen beantwortet werden können und die Schulung nicht zu anonym wird.</div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Werde ich nach der Anmeldung zugespammt?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><div class="faq__a-inner">Nein. Du erhältst nur relevante Infos zur kostenlosen Schulung und optional kurze WhatsApp-Reminder, wenn du dem zustimmst.</div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false">Gibt es danach ein weiterführendes Programm?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><div class="faq__a-inner">Ja, nach dem Webinar gibt es die Möglichkeit, sich für einen 4-wöchigen AI Builder Sprint zu bewerben. Das Webinar selbst bleibt kostenlos.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== FINAL CTA =================== -->
+    <section class="section">
+      <div class="container">
+        <div class="final reveal">
+          <h2>Bereit, KI nicht nur zu nutzen, sondern damit etwas zu bauen?</h2>
+          <p>Setz dich auf die Warteliste für die kostenlose Live-Schulung und erfahre, wie du dein erstes eigenes AI-Projekt angehst.</p>
+          <a class="btn btn--white btn--lg" href="#anmeldung" data-cta="final">Kostenlosen Platz anfragen</a>
+          <p class="final__micro">Kostenlos · live · begrenzte Gruppengröße · optionaler WhatsApp-Reminder</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="brand" href="#top">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5 13.9 11.4 12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M18 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>
+        </span>
+        <span>AI&nbsp;Builder</span>
+      </a>
+      <nav class="footer__links" aria-label="Rechtliches">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="mailto:kontakt@example.com">Kontakt</a>
+      </nav>
+      <p class="footer__copy">© <span id="year">2026</span> AI Builder. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <!-- =================== MOBILE STICKY CTA =================== -->
+  <div class="sticky-cta" id="sticky-cta">
+    <a class="btn btn--primary" href="#anmeldung" data-cta="sticky">Kostenlosen Platz anfragen</a>
+  </div>
+
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
