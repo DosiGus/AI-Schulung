@@ -447,15 +447,6 @@ h2.h-section {
   gap: 0.95rem;
   margin-top: 2.25rem;
 }
-.hero__micro {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.95rem;
-  color: var(--muted);
-}
-.hero__micro svg { width: 16px; height: 16px; color: var(--accent); flex: none; }
-
 .hero__scarcity {
   display: inline-flex;
   align-items: center;
