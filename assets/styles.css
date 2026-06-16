@@ -245,7 +245,7 @@ h2.h-section {
   z-index: 50;
   width: min(calc(100% - (var(--pad) * 2)), var(--container));
   margin: 0.9rem auto 0;
-  background: rgba(255, 255, 255, 0.82);
+  background: transparent;
   backdrop-filter: saturate(180%) blur(12px);
   -webkit-backdrop-filter: saturate(180%) blur(12px);
   border: 1px solid rgba(232, 232, 238, 0.9);
@@ -254,7 +254,7 @@ h2.h-section {
   transition: border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease, transform 0.25s ease;
 }
 .header.is-scrolled {
-  background: rgba(255, 255, 255, 0.9);
+  background: transparent;
   border-color: rgba(232, 232, 238, 1);
   box-shadow: 0 18px 46px rgba(11, 11, 15, 0.11);
 }
